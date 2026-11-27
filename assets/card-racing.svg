@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 360" width="1300" height="360" role="img" aria-labelledby="t">
+  <title id="t">motogp-api and GridScout: Open-source motorsport APIs, live F1 telemetry, and Discord bots.</title>
+  <style>
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .bob{animation:bob 4s ease-in-out infinite}
+    .b2{animation-delay:-2s}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+    .pulse{animation:pulse 1.5s ease-in-out infinite}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="1300" height="360" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="500" width="800" height="360" fill="#1B2A4A"/>
+    <path d="M500 0V360M522 0V360M544 0V360M566 0V360M588 0V360M610 0V360M632 0V360M654 0V360M676 0V360M698 0V360M720 0V360M742 0V360M764 0V360M786 0V360M808 0V360M830 0V360M852 0V360M874 0V360M896 0V360M918 0V360M940 0V360M962 0V360M984 0V360M1006 0V360M1028 0V360M1050 0V360M1072 0V360M1094 0V360M1116 0V360M1138 0V360M1160 0V360M1182 0V360M1204 0V360M1226 0V360M1248 0V360M1270 0V360M1292 0V360M500 0H1300M500 22H1300M500 44H1300M500 66H1300M500 88H1300M500 110H1300M500 132H1300M500 154H1300M500 176H1300M500 198H1300M500 220H1300M500 242H1300M500 264H1300M500 286H1300M500 308H1300M500 330H1300M500 352H1300" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+    
+    <rect width="500" height="360" fill="#F2CF1D"/>
+    <text x="40" y="52" fill="#5A4E10" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">05 · RACING APIs &amp; BOTS</text>
+    <text x="40" y="114" fill="#16181B" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">motogp-api</text>
+    <text x="40" y="164" fill="#23272E" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600">Open-source MotoGP REST API, live</text>
+    <text x="40" y="194" fill="#23272E" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" opacity=".88">F1 telemetry &amp; GridScout Discord bots.</text>
+    <line x1="40" y1="258" x2="460" y2="258" stroke="rgba(22,24,27,.16)" stroke-width="1"/>
+    <text x="40" y="308" fill="#16181B" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">REST</text><text x="40" y="331" fill="#4A3F00" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">JSON API</text><text x="205" y="308" fill="#16181B" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">F1+GP</text><text x="205" y="331" fill="#4A3F00" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Live Timing</text><text x="345" y="308" fill="#16181B" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">Bots</text><text x="345" y="331" fill="#4A3F00" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Discord Ready</text>
+    
+
+    <!-- Window 1: REST API JSON Response -->
+    <g class="bob">
+      <rect x="538" y="34" width="376" height="292" rx="16" fill="#0E1525" stroke="rgba(242,207,29,.3)"/>
+      <rect x="558" y="54" width="52" height="22" rx="6" fill="#10B981"/>
+      <text x="570" y="69" fill="#0B1320" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="800">GET</text>
+      <text x="620" y="69" fill="#E6E9EE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">/api/motogp/next</text>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+        <text x="560" y="112" fill="#8B949E">{</text>
+        <text x="578" y="138" fill="#60A5FA">"series"</text><text x="646" y="138" fill="#F4F1E8">: </text><text x="662" y="138" fill="#F2CF1D">"MotoGP"</text><text x="728" y="138" fill="#F4F1E8">,</text>
+        <text x="578" y="164" fill="#60A5FA">"session"</text><text x="654" y="164" fill="#F4F1E8">: </text><text x="670" y="164" fill="#34D399">"Qualifying Q2"</text><text x="790" y="164" fill="#F4F1E8">,</text>
+        <text x="578" y="190" fill="#60A5FA">"tz_sync"</text><text x="654" y="190" fill="#F4F1E8">: </text><text x="670" y="190" fill="#FE6B3D">"UTC+05:30"</text><text x="762" y="190" fill="#F4F1E8">,</text>
+        <text x="578" y="216" fill="#60A5FA">"status"</text><text x="646" y="216" fill="#F4F1E8">: </text><text x="662" y="216" fill="#34D399">"200 OK"</text>
+        <text x="560" y="242" fill="#8B949E">}</text>
+      </g>
+
+      <rect x="558" y="266" width="336" height="40" rx="10" fill="#16213A"/>
+      <circle class="pulse" cx="578" cy="286" r="4.5" fill="#34D399"/>
+      <text x="592" y="291" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">motogp-api.vercel.app · OpenAPI</text>
+    </g>
+
+    <!-- Window 2: GridScout / Discord Bot Embed -->
+    <g class="bob b2">
+      <rect x="936" y="34" width="328" height="292" rx="16" fill="#111622" stroke="rgba(255,255,255,.14)"/>
+      <text x="958" y="64" fill="#F2CF1D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700">GRIDSCOUT + F1RACE</text>
+
+      <rect x="958" y="84" width="284" height="148" rx="10" fill="#1A2234"/>
+      <rect x="958" y="84" width="5" height="148" rx="2.5" fill="#FE6B3D"/>
+      <text x="976" y="112" fill="#F4F1E8" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="800">/next-race · Live Feed</text>
+      <text x="976" y="140" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">• Pit Wall Telemetry</text>
+      <text x="976" y="166" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">• Driver &amp; Constructor Stats</text>
+      <text x="976" y="192" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">• Auto Local Timezone Alerts</text>
+      <text x="976" y="218" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">gridscout.xyz · OpenF1 Ready</text>
+
+      <rect x="958" y="250" width="134" height="54" rx="10" fill="#1A2234"/>
+      <text x="974" y="274" fill="#F2CF1D" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800">OpenF1</text>
+      <text x="974" y="293" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5">f1race Live</text>
+
+      <rect x="1108" y="250" width="134" height="54" rx="10" fill="#1A2234"/>
+      <text x="1124" y="274" fill="#FE6B3D" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800">Discord</text>
+      <text x="1124" y="293" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5">Bot Suite</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1299" height="359" rx="19.5" fill="none" stroke="rgba(255,255,255,.14)"/>
+</svg>

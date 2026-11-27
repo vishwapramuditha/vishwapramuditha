@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 360" width="1300" height="360" role="img" aria-labelledby="t">
+  <title id="t">Moto-DB: Open-source motorsport database for F1, MotoGP, IndyCar, and WEC.</title>
+  <style>
+    @keyframes lap{from{stroke-dashoffset:740}to{stroke-dashoffset:0}}
+    .lap{stroke-dasharray:140 600;animation:lap 4.8s linear infinite}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    .blink{animation:blink 1.4s ease-in-out infinite}
+    @keyframes bar{0%,100%{transform:scaleX(.55)}50%{transform:scaleX(1)}}
+    .bar{transform-box:fill-box;transform-origin:left center;animation:bar 2.8s ease-in-out infinite}
+    .b2{animation-delay:-.7s}.b3{animation-delay:-1.4s}.b4{animation-delay:-2.1s}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="1300" height="360" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="500" width="800" height="360" fill="#181C24"/>
+    <path d="M500 0V360M522 0V360M544 0V360M566 0V360M588 0V360M610 0V360M632 0V360M654 0V360M676 0V360M698 0V360M720 0V360M742 0V360M764 0V360M786 0V360M808 0V360M830 0V360M852 0V360M874 0V360M896 0V360M918 0V360M940 0V360M962 0V360M984 0V360M1006 0V360M1028 0V360M1050 0V360M1072 0V360M1094 0V360M1116 0V360M1138 0V360M1160 0V360M1182 0V360M1204 0V360M1226 0V360M1248 0V360M1270 0V360M1292 0V360M500 0H1300M500 22H1300M500 44H1300M500 66H1300M500 88H1300M500 110H1300M500 132H1300M500 154H1300M500 176H1300M500 198H1300M500 220H1300M500 242H1300M500 264H1300M500 286H1300M500 308H1300M500 330H1300M500 352H1300" stroke="rgba(255,255,255,.045)" stroke-width="1"/>
+    
+    <rect width="500" height="360" fill="#111318"/>
+    <text x="40" y="52" fill="#E10600" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">01 · MOTORSPORTS ECOSYSTEM</text>
+    <text x="40" y="114" fill="#F4F1E8" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">Moto-DB</text>
+    <text x="40" y="164" fill="#C9CCD2" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600">Open-source Git-backed motorsport</text>
+    <text x="40" y="194" fill="#C9CCD2" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" opacity=".88">database, telemetry &amp; race schedules.</text>
+    <line x1="40" y1="258" x2="460" y2="258" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+    <text x="40" y="308" fill="#F4F1E8" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">4</text><text x="40" y="331" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">F1 · GP · INDY</text><text x="205" y="308" fill="#F4F1E8" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">JSON</text><text x="205" y="331" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Git-DB API</text><text x="345" y="308" fill="#F4F1E8" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">Live</text><text x="345" y="331" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Web Explorer</text>
+    
+    <rect x="500" y="0" width="1" height="360" fill="rgba(255,255,255,.1)"/>
+
+    <!-- Circuit Panel -->
+    <rect x="536" y="28" width="380" height="304" rx="16" fill="#0E1117" stroke="rgba(255,255,255,.1)"/>
+    <circle class="blink" cx="560" cy="54" r="5" fill="#E10600"/>
+    <text x="574" y="59" fill="#F4F1E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700">CIRCUIT TELEMETRY // 2026</text>
+
+    <!-- Stylized Grand Prix Circuit Path -->
+    <path d="M582 238 C562 238 558 192 586 172 L646 132 C666 118 666 96 694 92 L790 82 C840 78 874 106 868 142 C862 174 822 182 812 204 C804 224 844 236 838 266 C832 292 786 296 742 284 L662 262 C628 252 606 238 582 238 Z"
+          fill="none" stroke="rgba(255,255,255,.16)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="lap" d="M582 238 C562 238 558 192 586 172 L646 132 C666 118 666 96 694 92 L790 82 C840 78 874 106 868 142 C862 174 822 182 812 204 C804 224 844 236 838 266 C832 292 786 296 742 284 L662 262 C628 252 606 238 582 238 Z"
+          fill="none" stroke="#00D2BE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="694" cy="92" r="5" fill="#E10600"/>
+    <circle cx="812" cy="204" r="5" fill="#F2CF1D"/>
+    <text x="560" y="312" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5">S1 PURPLE · S2 GREEN · DRIVERS &amp; TRACKS</text>
+
+    <!-- Timing Tower Panel -->
+    <rect x="938" y="28" width="326" height="304" rx="16" fill="#0E1117" stroke="rgba(255,255,255,.1)"/>
+    <text x="960" y="59" fill="#00D2BE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700">SERIES // LIVE INDEX</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      <rect x="960" y="82" width="282" height="44" rx="8" fill="#161B22"/>
+      <rect x="960" y="82" width="4" height="44" rx="2" fill="#E10600"/>
+      <text x="976" y="109" fill="#F4F1E8" font-weight="700">F1</text>
+      <text x="1026" y="109" fill="#A7ADB6">24 Rounds · Telemetry</text>
+      <rect class="bar" x="1202" y="99" width="28" height="8" rx="4" fill="#E10600"/>
+
+      <rect x="960" y="138" width="282" height="44" rx="8" fill="#161B22"/>
+      <rect x="960" y="138" width="4" height="44" rx="2" fill="#FE6B3D"/>
+      <text x="976" y="165" fill="#F4F1E8" font-weight="700">MotoGP</text>
+      <text x="1044" y="165" fill="#A7ADB6">Sprint &amp; GP Results</text>
+      <rect class="bar b2" x="1202" y="155" width="28" height="8" rx="4" fill="#FE6B3D"/>
+
+      <rect x="960" y="194" width="282" height="44" rx="8" fill="#161B22"/>
+      <rect x="960" y="194" width="4" height="44" rx="2" fill="#00D2BE"/>
+      <text x="976" y="221" fill="#F4F1E8" font-weight="700">IndyCar</text>
+      <text x="1048" y="221" fill="#A7ADB6">Circuits &amp; Standings</text>
+      <rect class="bar b3" x="1202" y="211" width="28" height="8" rx="4" fill="#00D2BE"/>
+
+      <rect x="960" y="250" width="282" height="44" rx="8" fill="#161B22"/>
+      <rect x="960" y="250" width="4" height="44" rx="2" fill="#F2CF1D"/>
+      <text x="976" y="277" fill="#F4F1E8" font-weight="700">WEC</text>
+      <text x="1026" y="277" fill="#A7ADB6">Endurance Data</text>
+      <rect class="bar b4" x="1202" y="267" width="28" height="8" rx="4" fill="#F2CF1D"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1299" height="359" rx="19.5" fill="none" stroke="rgba(255,255,255,.14)"/>
+</svg>

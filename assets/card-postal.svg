@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 360" width="1300" height="360" role="img" aria-labelledby="t">
+  <title id="t">postal-npm: Zero-dependency TypeScript package for Sri Lankan postal codes and cities.</title>
+  <style>
+    @keyframes ring{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.1);opacity:0}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+    .r2{animation-delay:-1.3s}
+    @keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .cur{animation:cur 1.1s steps(1) infinite}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="1300" height="360" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="500" width="800" height="360" fill="#16181D"/>
+    <path d="M500 0V360M522 0V360M544 0V360M566 0V360M588 0V360M610 0V360M632 0V360M654 0V360M676 0V360M698 0V360M720 0V360M742 0V360M764 0V360M786 0V360M808 0V360M830 0V360M852 0V360M874 0V360M896 0V360M918 0V360M940 0V360M962 0V360M984 0V360M1006 0V360M1028 0V360M1050 0V360M1072 0V360M1094 0V360M1116 0V360M1138 0V360M1160 0V360M1182 0V360M1204 0V360M1226 0V360M1248 0V360M1270 0V360M1292 0V360M500 0H1300M500 22H1300M500 44H1300M500 66H1300M500 88H1300M500 110H1300M500 132H1300M500 154H1300M500 176H1300M500 198H1300M500 220H1300M500 242H1300M500 264H1300M500 286H1300M500 308H1300M500 330H1300M500 352H1300" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+    
+    <rect width="500" height="360" fill="#CB3837"/>
+    <text x="40" y="52" fill="#FDE68A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">04 · NPM PACKAGE</text>
+    <text x="40" y="114" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">postal-npm</text>
+    <text x="40" y="164" fill="#FEE2E2" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600">Lightweight, zero-dependency npm</text>
+    <text x="40" y="194" fill="#FEE2E2" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" opacity=".88">package for Sri Lankan postal codes.</text>
+    <line x1="40" y1="258" x2="460" y2="258" stroke="rgba(255,255,255,.22)" stroke-width="1"/>
+    <text x="40" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">0</text><text x="40" y="331" fill="#FECACA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Dependencies</text><text x="205" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">100%</text><text x="205" y="331" fill="#FECACA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">TypeScript</text><text x="345" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">LK</text><text x="345" y="331" fill="#FECACA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Postal Index</text>
+    
+
+    <!-- Terminal / Code Card -->
+    <rect x="540" y="34" width="440" height="292" rx="16" fill="#0D0F13" stroke="rgba(255,255,255,.12)"/>
+    <circle cx="566" cy="58" r="5" fill="#EF4444"/>
+    <circle cx="584" cy="58" r="5" fill="#F2CF1D"/>
+    <circle cx="602" cy="58" r="5" fill="#34D399"/>
+    <text x="626" y="63" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">index.ts — postal-npm</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
+      <text x="564" y="106" fill="#F4F1E8"><tspan fill="#F87171">import</tspan> { lookup, byCity } <tspan fill="#F87171">from</tspan> <tspan fill="#F2CF1D">'postal-npm'</tspan></text>
+
+      <text x="564" y="148" fill="#8B949E">// Fast typed lookup</text>
+      <text x="564" y="176" fill="#F4F1E8"><tspan fill="#60A5FA">const</tspan> res = byCity(<tspan fill="#34D399">'Matara'</tspan>);</text>
+      <rect class="cur" x="814" y="162" width="8" height="17" fill="#F2CF1D"/>
+
+      <rect x="564" y="204" width="392" height="96" rx="10" fill="#161B22" stroke="rgba(52,211,153,.3)"/>
+      <text x="582" y="232" fill="#34D399" font-size="13">// Output (0.04ms · 0 deps)</text>
+      <text x="582" y="258" fill="#F4F1E8">{ code: "81000", city: "Matara",</text>
+      <text x="582" y="282" fill="#D4B064">  province: "Southern", valid: true }</text>
+    </g>
+
+    <!-- Right Radar Node Cluster -->
+    <rect x="1002" y="34" width="260" height="292" rx="16" fill="#0D0F13" stroke="rgba(255,255,255,.12)"/>
+    <text x="1024" y="63" fill="#F2CF1D" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="700">POSTAL NODES · LK</text>
+
+    <path d="M1112 106 L1068 176 L1128 214 L1108 278" fill="none" stroke="rgba(203,56,55,.55)" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <circle cx="1112" cy="106" r="6" fill="#F2CF1D"/>
+    <text x="1128" y="110" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">40000 · Jaffna</text>
+
+    <circle cx="1068" cy="176" r="6" fill="#34D399"/>
+    <text x="1084" y="180" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">00100 · Colombo</text>
+
+    <circle cx="1128" cy="214" r="6" fill="#60A5FA"/>
+    <text x="1144" y="218" fill="#C9CCD2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">20000 · Kandy</text>
+
+    <circle class="ring" cx="1108" cy="278" r="14" fill="none" stroke="#CB3837" stroke-width="2"/>
+    <circle class="ring r2" cx="1108" cy="278" r="14" fill="none" stroke="#F2CF1D" stroke-width="2"/>
+    <circle cx="1108" cy="278" r="6.5" fill="#CB3837"/>
+    <text x="1128" y="283" fill="#F4F1E8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="700">81000 · Matara</text>
+  </g>
+  <rect x=".5" y=".5" width="1299" height="359" rx="19.5" fill="none" stroke="rgba(255,255,255,.14)"/>
+</svg>
