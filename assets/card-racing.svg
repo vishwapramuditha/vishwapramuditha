@@ -16,7 +16,7 @@
     <path d="M500 0V360M522 0V360M544 0V360M566 0V360M588 0V360M610 0V360M632 0V360M654 0V360M676 0V360M698 0V360M720 0V360M742 0V360M764 0V360M786 0V360M808 0V360M830 0V360M852 0V360M874 0V360M896 0V360M918 0V360M940 0V360M962 0V360M984 0V360M1006 0V360M1028 0V360M1050 0V360M1072 0V360M1094 0V360M1116 0V360M1138 0V360M1160 0V360M1182 0V360M1204 0V360M1226 0V360M1248 0V360M1270 0V360M1292 0V360M500 0H1300M500 22H1300M500 44H1300M500 66H1300M500 88H1300M500 110H1300M500 132H1300M500 154H1300M500 176H1300M500 198H1300M500 220H1300M500 242H1300M500 264H1300M500 286H1300M500 308H1300M500 330H1300M500 352H1300" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
     
     <rect width="500" height="360" fill="#F2CF1D"/>
-    <text x="40" y="52" fill="#5A4E10" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">05 · RACING APIs &amp; BOTS</text>
+    <text x="40" y="52" fill="#5A4E10" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">04 · RACING APIs &amp; BOTS</text>
     <text x="40" y="114" fill="#16181B" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">motogp-api</text>
     <text x="40" y="164" fill="#23272E" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600">Open-source MotoGP REST API, live</text>
     <text x="40" y="194" fill="#23272E" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" opacity=".88">F1 telemetry &amp; GridScout Discord bots.</text>

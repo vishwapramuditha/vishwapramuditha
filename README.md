@@ -1,10 +1,10 @@
 <a href="https://snowam.is-a.dev/"><img src="assets/header.svg" width="100%" alt="Vishwa Pramuditha (SnowAM) · Thoughtful software, motorsport systems, and digital experiences built for the open web."></a>
 
-<b>Computer Science undergraduate, software developer &amp; graphic designer.</b><br>
+<b>Computer Science undergraduate, Developer &amp; Designer.</b><br>
 <b>Building open-source motorsport telemetry, civic transparency tools, and developer utilities — aka <a href="https://snowam.is-a.dev/">SnowAM</a>.</b>
 
 <a href="https://github.com/vishwapramuditha?tab=repositories"><img src="https://img.shields.io/github/stars/vishwapramuditha?style=for-the-badge&amp;logo=github&amp;label=total%20stars&amp;color=d4b064" alt="total stars"></a>
-<a href="#-moto-db"><img src="https://img.shields.io/badge/Projects-5-e10600?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="5 projects"></a>
+<a href="#-moto-db"><img src="https://img.shields.io/badge/Projects-4-e10600?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="4 projects"></a>
 <a href="https://github.com/vishwapramuditha?tab=followers"><img src="https://img.shields.io/github/followers/vishwapramuditha?style=for-the-badge&amp;logo=github&amp;label=followers&amp;color=fe6b3d" alt="followers"></a>
 <a href="https://snowam.is-a.dev/"><img src="https://img.shields.io/badge/snowam.is--a.dev-121417?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/vishwapramuditha/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
@@ -32,18 +32,6 @@
 
 <a href="https://open-gov-swart.vercel.app"><img src="https://img.shields.io/badge/▶_Visit_Portal-Live_App-0f4c4c?style=for-the-badge" alt="Visit Portal"></a>
 <a href="https://github.com/vishwapramuditha/open-gov"><img src="https://img.shields.io/github/stars/vishwapramuditha/open-gov?style=for-the-badge&amp;logo=github&amp;label=Open-Gov&amp;color=d4b064" alt="Open-Gov on GitHub"></a>
-
-<img src="assets/divider-vocal.svg" width="100%" alt="">
-
-## 🎙️ Vocal Remover
-
-<a href="https://github.com/vishwapramuditha/vocal-remover"><img src="assets/card-vocal.svg" width="100%" alt="Vocal Remover: Privacy-focused local stem isolation combining Web Audio DSP and Spleeter AI."></a>
-
-<b>Privacy-focused local vocal remover powered by a Hybrid DSP + AI pipeline.</b><br>
-<b>Combines instant client-side Web Audio DSP previews with a local Spleeter AI backend for clean vocal and instrumental stem isolation.</b>
-
-<a href="https://vocal-remover-three.vercel.app/"><img src="https://img.shields.io/badge/▶_Try_Live_App-Web_Studio-6d28d9?style=for-the-badge" alt="Try Live App"></a>
-<a href="https://github.com/vishwapramuditha/vocal-remover"><img src="https://img.shields.io/github/stars/vishwapramuditha/vocal-remover?style=for-the-badge&amp;logo=github&amp;label=vocal-remover&amp;color=d4b064" alt="Vocal Remover on GitHub"></a>
 
 <img src="assets/divider-postal.svg" width="100%" alt="">
 
