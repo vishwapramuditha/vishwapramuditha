@@ -45,17 +45,17 @@
 <a href="https://github.com/vishwapramuditha/postal-npm"><img src="https://img.shields.io/badge/▶_View_Package-Zero_Deps-cb3837?style=for-the-badge" alt="View Package"></a>
 <a href="https://github.com/vishwapramuditha/postal-npm"><img src="https://img.shields.io/github/stars/vishwapramuditha/postal-npm?style=for-the-badge&amp;logo=github&amp;label=postal-npm&amp;color=d4b064" alt="postal-npm on GitHub"></a>
 
-<img src="assets/divider-racing.svg" width="100%" alt="">
+<img src="assets/divider-vibezic.svg" width="100%" alt="">
 
-## 🏁 motogp-api &amp; GridScout
+## 🛡️ VibeZic
 
-<a href="https://github.com/vishwapramuditha/motogp-api"><img src="assets/card-racing.svg" width="100%" alt="motogp-api and GridScout: Open-source motorsport APIs, live F1 telemetry, and Discord bots."></a>
+<a href="https://github.com/vishwapramuditha/vibeZic"><img src="assets/card-vibezic.svg" width="100%" alt="VibeZic: Real-time offline VS Code security vulnerability and bug scanner for vibe-coded projects."></a>
 
-<b>Open-source MotoGP REST API alongside live F1 telemetry (<a href="https://github.com/vishwapramuditha/f1race">f1race</a>) and racing Discord bots (<a href="https://github.com/vishwapramuditha/GridScout">GridScout</a>).</b><br>
-<b>Built for motorsport fans and developers needing live session timing, driver standings, and timezone-aware race schedules.</b>
+<b>A free, open-source VS Code extension that finds security vulnerabilities and bugs in AI/vibe-coded projects — 100% offline, no API keys required.</b><br>
+<b>Detects OWASP Top 10 and CWE/SANS Top 25 issues in real time across 10+ languages with 28+ built-in rules, inline CodeLens, and HTML security reports.</b>
 
-<a href="https://motogp-api.vercel.app/"><img src="https://img.shields.io/badge/▶_Open_API-motogp--api-f2cf1d?style=for-the-badge" alt="Open API"></a>
-<a href="https://github.com/vishwapramuditha/motogp-api"><img src="https://img.shields.io/github/stars/vishwapramuditha/motogp-api?style=for-the-badge&amp;logo=github&amp;label=motogp-api&amp;color=d4b064" alt="motogp-api on GitHub"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=VishwaPramuditha.vibezic"><img src="https://img.shields.io/badge/▶_VS_Code-Marketplace-2563eb?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code Marketplace"></a>
+<a href="https://github.com/vishwapramuditha/vibeZic"><img src="https://img.shields.io/github/stars/vishwapramuditha/vibeZic?style=for-the-badge&amp;logo=github&amp;label=vibeZic&amp;color=d4b064" alt="vibeZic on GitHub"></a>
 
 <img src="assets/divider-end.svg" width="100%" alt="">
 

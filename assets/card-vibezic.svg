@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 360" width="1300" height="360" role="img" aria-labelledby="t">
+  <title id="t">VibeZic: Real-time offline VS Code security vulnerability and bug scanner for vibe-coded projects.</title>
+  <style>
+    @keyframes sweep{0%{transform:translateY(0);opacity:0}15%{opacity:.85}85%{opacity:.85}100%{transform:translateY(210px);opacity:0}}
+    .sweep{animation:sweep 3.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    .pulse{animation:pulse 1.5s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    .bob{animation:bob 4s ease-in-out infinite}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="1300" height="360" rx="20"/></clipPath>
+    <clipPath id="ed"><rect x="536" y="32" width="404" height="296" rx="16"/></clipPath>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity=".28"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="500" width="800" height="360" fill="#0B1220"/>
+    <path d="M500 0V360M522 0V360M544 0V360M566 0V360M588 0V360M610 0V360M632 0V360M654 0V360M676 0V360M698 0V360M720 0V360M742 0V360M764 0V360M786 0V360M808 0V360M830 0V360M852 0V360M874 0V360M896 0V360M918 0V360M940 0V360M962 0V360M984 0V360M1006 0V360M1028 0V360M1050 0V360M1072 0V360M1094 0V360M1116 0V360M1138 0V360M1160 0V360M1182 0V360M1204 0V360M1226 0V360M1248 0V360M1270 0V360M1292 0V360M500 0H1300M500 22H1300M500 44H1300M500 66H1300M500 88H1300M500 110H1300M500 132H1300M500 154H1300M500 176H1300M500 198H1300M500 220H1300M500 242H1300M500 264H1300M500 286H1300M500 308H1300M500 330H1300M500 352H1300" stroke="rgba(255,255,255,.045)" stroke-width="1"/>
+    
+    <rect width="500" height="360" fill="#1D4ED8"/>
+    <text x="40" y="52" fill="#FDE047" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.2">04 · VS CODE EXTENSION</text>
+    <text x="40" y="114" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2">VibeZic</text>
+    <text x="40" y="164" fill="#DBEAFE" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600">Real-time offline security scanner</text>
+    <text x="40" y="194" fill="#DBEAFE" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" opacity=".88">for AI &amp; vibe-coded repositories.</text>
+    <line x1="40" y1="258" x2="460" y2="258" stroke="rgba(255,255,255,.22)" stroke-width="1"/>
+    <text x="40" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">28+</text><text x="40" y="331" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">OWASP &amp; CWE Rules</text><text x="205" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">10+</text><text x="205" y="331" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Languages</text><text x="345" y="308" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.6">100%</text><text x="345" y="331" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="600">Offline · 0 API</text>
+    
+
+    <!-- Left Window: VS Code Editor + Inline Diagnostic -->
+    <rect x="536" y="32" width="404" height="296" rx="16" fill="#0D1117" stroke="rgba(56,189,248,.28)"/>
+    <circle cx="560" cy="56" r="5" fill="#EF4444"/>
+    <circle cx="578" cy="56" r="5" fill="#F59E0B"/>
+    <circle cx="596" cy="56" r="5" fill="#34D399"/>
+    <text x="618" y="61" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">query.py — VibeZic</text>
+
+    <g clip-path="url(#ed)">
+      <rect class="sweep" x="536" y="76" width="404" height="34" fill="url(#sg)"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+      <text x="556" y="102" fill="#64748B">1</text>
+      <text x="580" y="102" fill="#93C5FD">def <tspan fill="#F4F1E8">get_user(uid):</tspan></text>
+
+      <!-- CodeLens Warning -->
+      <rect x="580" y="114" width="280" height="22" rx="6" fill="rgba(239,68,68,.16)" stroke="rgba(239,68,68,.45)"/>
+      <text x="590" y="129" fill="#FCA5A5" font-size="11.5" font-weight="700">VZ-002 · SQL Injection (CWE-89)</text>
+
+      <text x="556" y="158" fill="#64748B">2</text>
+      <text x="580" y="158" fill="#F4F1E8">  cur.execute(<tspan fill="#FCA5A5">f"SELECT * {uid}"</tspan>)</text>
+      <path d="M674 164 q4 -3 8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0 t8 0" fill="none" stroke="#EF4444" stroke-width="2"/>
+
+      <text x="556" y="194" fill="#64748B">3</text>
+      <text x="580" y="194" fill="#64748B"># Hover: Use parameterized query</text>
+
+      <rect x="556" y="218" width="364" height="90" rx="10" fill="#131B2B" stroke="rgba(56,189,248,.22)"/>
+      <text x="572" y="242" fill="#38BDF8" font-size="12" font-weight="700">REMEDIATION // A03:2021</text>
+      <text x="572" y="266" fill="#34D399" font-size="12">cur.execute("... WHERE id = %s",</text>
+      <text x="572" y="288" fill="#34D399" font-size="12">            (uid,))</text>
+    </g>
+
+    <!-- Right Window: Findings & Standards Panel -->
+    <g class="bob">
+      <rect x="960" y="32" width="304" height="296" rx="16" fill="#0D1117" stroke="rgba(255,255,255,.14)"/>
+      <circle class="pulse" cx="984" cy="56" r="4.5" fill="#34D399"/>
+      <text x="998" y="61" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" font-weight="700">VIBEZIC // OFFLINE SAST</text>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">
+        <rect x="980" y="82" width="264" height="50" rx="8" fill="#161E2E"/>
+        <rect x="980" y="82" width="4" height="50" rx="2" fill="#EF4444"/>
+        <text x="996" y="103" fill="#FCA5A5" font-weight="700">CRITICAL · VZ-020</text>
+        <text x="996" y="122" fill="#C9CCD2">Hardcoded Secret · CWE-798</text>
+
+        <rect x="980" y="144" width="264" height="50" rx="8" fill="#161E2E"/>
+        <rect x="980" y="144" width="4" height="50" rx="2" fill="#F59E0B"/>
+        <text x="996" y="165" fill="#FCD34D" font-weight="700">HIGH · VZ-010</text>
+        <text x="996" y="184" fill="#C9CCD2">DOM XSS Vector · CWE-79</text>
+
+        <rect x="980" y="206" width="264" height="50" rx="8" fill="#161E2E"/>
+        <rect x="980" y="206" width="4" height="50" rx="2" fill="#38BDF8"/>
+        <text x="996" y="227" fill="#7DD3FC" font-weight="700">HIGH · VZ-060</text>
+        <text x="996" y="246" fill="#C9CCD2">SSRF Fetch URL · CWE-918</text>
+      </g>
+
+      <rect x="980" y="270" width="264" height="38" rx="10" fill="#11223A" stroke="rgba(56,189,248,.3)"/>
+      <text x="996" y="294" fill="#E0F2FE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700">OWASP · CWE · NIST · ZERO KEYS</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1299" height="359" rx="19.5" fill="none" stroke="rgba(255,255,255,.14)"/>
+</svg>

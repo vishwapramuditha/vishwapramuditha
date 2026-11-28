@@ -9,9 +9,9 @@
   </style>
   <defs>
     <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F2CF1D" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#F2CF1D"/>
-      <stop offset="1" stop-color="#F2CF1D" stop-opacity="0"/>
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="ln">
       <rect x="0" y="19" width="616" height="6"/>
@@ -24,5 +24,5 @@
   </g>
   <circle cx="622" cy="22" r="2.2" fill="rgba(140,148,158,.45)"/>
   <circle cx="678" cy="22" r="2.2" fill="rgba(140,148,158,.45)"/>
-  <path class="tw" d="M650.00 9.00C651.82 20.18 651.82 20.18 663.00 22.00C651.82 23.82 651.82 23.82 650.00 35.00C648.18 23.82 648.18 23.82 637.00 22.00C648.18 20.18 648.18 20.18 650.00 9.00Z" fill="#F2CF1D"/>
+  <path class="tw" d="M650.00 9.00C651.82 20.18 651.82 20.18 663.00 22.00C651.82 23.82 651.82 23.82 650.00 35.00C648.18 23.82 648.18 23.82 637.00 22.00C648.18 20.18 648.18 20.18 650.00 9.00Z" fill="#38BDF8"/>
 </svg>
