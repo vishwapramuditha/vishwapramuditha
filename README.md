@@ -54,7 +54,7 @@
 <b>A free, open-source VS Code extension that finds security vulnerabilities and bugs in AI/vibe-coded projects — 100% offline, no API keys required.</b><br>
 <b>Detects OWASP Top 10 and CWE/SANS Top 25 issues in real time across 10+ languages with 28+ built-in rules, inline CodeLens, and HTML security reports.</b>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=VishwaPramuditha.vibezic"><img src="https://img.shields.io/badge/▶_VS_Code-Marketplace-2563eb?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code Marketplace"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=snowman.vibezik"><img src="https://img.shields.io/badge/▶_VS_Code-Marketplace-2563eb?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code Marketplace"></a>
 <a href="https://github.com/vishwapramuditha/vibeZic"><img src="https://img.shields.io/github/stars/vishwapramuditha/vibeZic?style=for-the-badge&amp;logo=github&amp;label=vibeZic&amp;color=d4b064" alt="vibeZic on GitHub"></a>
 
 <img src="assets/divider-end.svg" width="100%" alt="">
